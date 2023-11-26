@@ -21,7 +21,7 @@ class Home extends BaseController
 		$uname = $this->request->getPost('username');
 		$password = $this->request->getPost('password');
 
-		if ($uname == 'tyma' && $password == 'egbayewa2022') {
+		if ($uname == 'tyma' && $password == 'egbayewa2023') {
 			$newdata = array(
 				'admin' => $uname,
 				'admin_logged_in' => TRUE
