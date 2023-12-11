@@ -82,6 +82,8 @@
                     <!-- <li class="nav-item "><a class="header-menu-toggle dropdown-toggle no-arrow" href="<?= base_url('manual') ?>">Manual Upload</a> -->
 					<li class="nav-item "><a class="header-menu-toggle dropdown-toggle no-arrow" href="<?= base_url('pins') ?>">Pins</a>
 					</li>
+					<li class="nav-item "><a class="header-menu-toggle dropdown-toggle no-arrow" href="<?= base_url('tagger') ?>">Generate Tags</a>
+					</li>
 				</ul>
 				<div class="d-none d-md-flex align-items-center" style="padding-right: 30px"><button class="btn btn-outline-primary btn-sm"><span class="btn-icon"><i class="ti-pencil"></i>...</span></button></div>
 			</nav>

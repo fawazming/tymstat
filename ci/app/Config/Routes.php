@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/dashboard', 'Home::dashboard');
 $routes->get('/printe', 'Home::printe');
+$routes->get('/tagger', 'Home::tag');
 $routes->get('/printm', 'Home::printm');
 $routes->get('/pins', 'Home::pins');
 $routes->post('/auth', 'Home::auth');
@@ -40,6 +41,8 @@ $routes->get('/manual', 'Home::manual');
 $routes->get('/manual1', 'Home::manual1');
 $routes->post('/manual2', 'Home::manual2');
 $routes->get('/admin/logout', 'Home::logout');
+$routes->post('/printtag', 'Home::printtag');
+
 
 /**
  * --------------------------------------------------------------------
