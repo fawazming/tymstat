@@ -70,7 +70,15 @@
 					<div class="mb-4">
 						<div class="md-form mb-0"><input class="md-form-control" type="password" name="password" required><label>Password</label></div>
 					</div>
-					<div class="flexbox mb-5"><label class="ui-switch switch-solid"><input type="checkbox" checked=""><span class="ml-0"></span> Remember Me</label>
+                    <div class="mb-4">
+						<div class="md-form mb-0">
+							<select name="year" class="md-form-control" required>
+								<option value="current">Current</option>
+								<option value="old">Old</option>
+							</select>
+						</div>
+					</div>
+						<!-- <div class="flexbox mb-5"><label class="ui-switch switch-solid"><input type="checkbox" checked=""><span class="ml-0"></span> Remember Me</label> -->
 						<!-- <a href="forgot-password.html">Forgot password?</a> -->
 					</div><button class="btn btn-primary btn-rounded btn-block" type="submit">LOGIN</button>
 					</form>
